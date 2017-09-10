@@ -20,3 +20,24 @@ To run this project locally, perform the following steps.
 * Import the project into your IDE using the maven pom.xml.  In spring STS suite this is done by importing an existing maven project
 * Run the JUnit tests in the src/test/java folder.  If all the tests pass, pat yourself on the back.
 * Next try running the app as a Spring Boot app.  You can do this by running the Main.java file in this project as a standard java project or you can run spring boot at your project's root with Maven using the following command.  'mvn spring-boot:run'
+
+----
+## Some Samples
+
+    {    
+        "name":"C.F. Martin & Company",    
+        "foundedDate": "1833-01-01T07:00:00.000+0000",    
+        "averageYearlySales": 3000000,    
+        "active": true 
+    }
+    
+    
+    {
+       "_links": {
+           "modelType": {
+                "href": "http://localhost:8080/api/modelTypes/3"
+           ,
+           "rel": "modelType"
+           }
+       }
+    }
